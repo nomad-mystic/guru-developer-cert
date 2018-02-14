@@ -59,7 +59,7 @@ Management Tools
     Managed Services
 
 Media Services
-    Elastic Transcoder
+    Elastic Transcoder ----
     Kinesis Video Streams
     MediaConvert
     MediaLive
