@@ -1,0 +1,241 @@
+
+
+Chapter 2 10,000 overview
+
+Compute
+	EC2 - Virtual Servers
+	Lightsail - watered down Server
+	Elastic Container Service - Docker
+	Lambda - Functions
+	Batch - Batch Computing in the cloud
+	Elastic Beanstalk - Full Service Set up
+
+Storage
+	S3 - Buckets | Simple Storage Service
+	EFS - Network Storage
+	Glacier - Long term data store on the cheap
+	Snowball - Data Transfer
+	Storage Gateway - Virtual Storage to send to S3
+
+Database
+	Relational Database Service - MySQL, Oracle, PostgreSQL, Microsoft SQL Server, Amazon Aurora, or MariaDB
+	DynamoDB - NoSQL
+	ElastiCache - Cache Stuff from databases
+	Amazon Redshift - BI
+
+Migration
+	AWS Migration Hub
+	Application Discovery Service
+	Database Migration Service
+	Server Migration Service
+	Snowball
+
+Networking & Content Delivery
+	VPC - Virtual datacenter
+	CloudFront
+	Route 53
+	API Gateway
+	Direct Connect
+
+Developer Tools
+	CodeStar
+	CodeCommit
+	CodeBuild
+	CodeDeploy
+	CodePipeline
+	Cloud9 - IDE
+	X-Ray
+
+Management Tools
+    CloudWatch
+    AWS Auto Scaling
+    CloudFormation
+    CloudTrail
+    Config
+    OpsWorks
+    Service Catalog
+    Systems Manager
+    Trusted Adviser
+    Managed Services
+
+Media Services
+    Elastic Transcoder
+    Kinesis Video Streams
+    MediaConvert
+    MediaLive
+    MediaPackage
+    MediaStore
+    MediaTailor
+
+Machine Learning
+    Amazon SageMaker
+    Amazon Comprehend
+    AWS DeepLens
+    Amazon Lex
+    Machine Learning
+    Amazon Polly
+    Rekognition
+    Amazon Transcribe
+    Amazon Translate
+
+Analytics
+    Athena
+    EMR
+    CloudSearch
+    Elasticsearch Service
+    Kinesis
+    QuickSight
+    Data Pipeline
+    AWS Glue
+
+Security, Identity & Compliance
+    IAM - Know this one!!!
+    Cognito
+    GuardDuty
+    Inspector
+    Amazon Macie
+    AWS Single Sign-On
+    Certificate Manager - SSL HTTPS
+    CloudHSM
+    Directory Service
+    WAF & Shield
+    Artifact
+
+Mobile Services
+    Mobile Hub
+    Pinpoint
+    AWS AppSync
+    Device Farm - Testing
+    Mobile Analytics
+
+AR & VR
+    Amazon Sumerian
+
+Application Integration
+    Step Functions
+    Amazon MQ
+    Simple Notification Service -  Know this one!!!
+    Simple Queue Service -  Know this one!!!
+    SWF -  Know this one!!!
+
+Customer Engagement
+    Amazon Connect - call center
+    Pinpoint
+    Simple Email Service
+
+Business Productivity
+    Alexa for Business
+    Amazon Chime - Google hangouts
+    WorkDocs - Drop box
+    WorkMail - Email through amazon
+
+Desktop & App Streaming
+    WorkSpaces - OS
+    AppStream 2.0 - Stream app to device
+
+Internet of Things
+    AWS IoT - Sensor reader, video
+    IoT Analytics
+    IoT Device Management -
+    Amazon FreeRTOS - OS for microcontrollers
+    AWS Greengrass
+
+Game Development
+    Amazon GameLift - Helps develop games
+
+
+Know Theses Ones!!!
+    Sections:
+        Compute
+        	EC2 - Virtual Servers
+        	Lightsail - watered down Server
+        	Elastic Container Service - Docker
+        	Lambda - Functions
+        	Batch - Batch Computing in the cloud
+        	Elastic Beanstalk - Full Service Set up
+
+        Storage
+        	S3 - Buckets | Simple Storage Service
+        	EFS - Network Storage
+        	Glacier - Long term data store on the cheap
+        	Snowball - Data Transfer
+        	Storage Gateway - Virtual Storage to send to S3
+
+        Database
+        	Relational Database Service - MySQL, Oracle, PostgreSQL, Microsoft SQL Server, Amazon Aurora, or MariaDB
+        	DynamoDB - NoSQL !!!!!!!
+        	ElastiCache - Cache Stuff from databases
+        	Amazon Redshift - BI
+
+        Networking & Content Delivery
+        	VPC - Virtual datacenter !!!!!!!!!
+        	CloudFront
+        	Route 53
+        	API Gateway
+        	Direct Connect
+
+        Management Tools
+            CloudWatch
+            AWS Auto Scaling
+            CloudFormation
+            CloudTrail
+            Config
+            OpsWorks
+            Service Catalog
+            Systems Manager
+            Trusted Adviser
+            Managed Services
+
+        Analytics
+            Athena
+            EMR
+            CloudSearch
+            Elasticsearch Service
+            Kinesis
+            QuickSight
+            Data Pipeline
+            AWS Glue
+
+        Security, Identity & Compliance
+            IAM - Know this one!!!
+            Cognito
+            GuardDuty
+            Inspector
+            Amazon Macie
+            AWS Single Sign-On
+            Certificate Manager - SSL HTTPS
+            CloudHSM
+            Directory Service
+            WAF & Shield
+            Artifact
+
+        Application Integration
+            Step Functions
+            Amazon MQ
+            Simple Notification Service -  Know this one!!!
+            Simple Queue Service -  Know this one!!!
+            SWF -  Know this one!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
