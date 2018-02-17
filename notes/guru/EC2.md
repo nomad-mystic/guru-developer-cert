@@ -24,30 +24,30 @@ Physical EC2 server
 ### EC2 Types
 ### DR Mc GIFT PX
 
-* D - Density
-* R - RAM
+* D - Density (D2)
+* R - RAM (R4)
 
-* M - Main general
-* C - Computer high CPU
+* M - Main general (M4)
+* C - Computer high CPU (C4)
 
-* G - Graphics
-* I - IOPS
-* F - FPGA
-* T - Cheap general T2 micro
+* G - Graphics (G2)
+* I - IOPS High Speed Storage(I2)
+* F - FPGA (F1)
+* T - Cheap general T2 micro (T2)
 
-* P - Graphics
-* X - Extreme Memory
+* P - Graphics | General Purpose GPU (P2)
+* X - Extreme Memory (X1)
 
 ## EBS:
 Elastic block storage:
 Allows you to create storage volumes and attach them to EC2 instances
 
 ### Types:
-* General purpose SSD (GP2)
-* Provisioned IOPS (IO1)
-* Throughput Optimized HDD (ST1)
-* Cold HDD (SC1)
-* Magnetic (Standard)
+* General purpose SSD (Up to 10,000 IOSP) (GP2)
+* Provisioned IOPS (Up to 20,000 IOSP) (IO1)
+* Throughput Optimized HDD - frequently accessed (Not Bootable)(ST1)
+* Cold HDD - Less frequently accessed (Not Bootable) (SC1)
+* Magnetic (Bootable) (Standard)
 
 ## EFS 
 #### Elastic File System
@@ -82,6 +82,14 @@ Allows you to create storage volumes and attach them to EC2 instances
 * Magnetic (Standard)
 
 You can't mount 1 EBS volume on multiple EC2 instances, instead use EFS
+
+### EBS vs Instance Store
+* Instance store volume are sometimes called 'Ephemeral Storage'
+* Instance store volumes can't be stopped If the underlying host fails, you lose all of your data
+* EBS backed instances can be stopped. You will not lose your data 
+* You can reboot both and not lose your data
+* By default, both ROOT volumes will be deleted on terminated, however with EBS volume you can tell AWS to keep the ROOT volume 
+
 
 ### Security Group lab
 * All inbound traffic is blocked by default
