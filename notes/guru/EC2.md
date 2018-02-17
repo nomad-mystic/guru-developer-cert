@@ -21,7 +21,7 @@ Physical EC2 server
 * Apps with short term, spiky, or unpredected workloads
 * Apps for testing and developed for the first time on AWS
 
-## EC2 Types
+### EC2 Types
 ### DR Mc GIFT PX
 
 * D - Density
@@ -48,6 +48,18 @@ Allows you to create storage volumes and attach them to EC2 instances
 * Throughput Optimized HDD (ST1)
 * Cold HDD (SC1)
 * Magnetic (Standard)
+
+## EFS 
+#### Elastic File System
+
+### Features 
+* Supports Network File System version 4 (NFSv4) protocol 
+* You only pay for the storage you use
+* Scaled up to petabytes
+* Supports thousands of concurrent NFS connections
+* Data is stored across multiple AZ in a region
+* Read After Write Consistence 
+
 
 # Exam Tips:
 ### Know the differences between;
