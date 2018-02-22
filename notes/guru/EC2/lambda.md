@@ -25,7 +25,7 @@ Lambda takes care of provisioning and managing the servers that you need to run 
 * App Layer / AWS API
 * AWS Lambda 
 
-### Lambda Triggers !!!! 
+### Lambda Triggers Know these !!!! 
 * API Gateway
 * Dynamo DB
 * AWS IOT 
