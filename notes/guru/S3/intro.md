@@ -27,7 +27,6 @@ retrieve any amount of data from anywhere on the web
 * Read and Write consistency for PUT of new objects 
 * Eventual consistency for overwrite PUTS and DELETES (can take some time to propagate)
 
-
 ### S3 is a simple key value store
 #### S3 is Object based, Objects consist of the following;
 * Key (The name of the object)
