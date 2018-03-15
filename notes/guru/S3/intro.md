@@ -21,7 +21,7 @@ retrieve any amount of data from anywhere on the web
     * https://s3.amazonaws.com/nomad-website-test/index.html (Works)
     * https://s3-us-east-1.amazonaws.com/nomad-website-test/index.html (Doesn't Work)
 * When you upload a file you will receive a HTTP code 200 on success  
-* ### READ THE FAQ FOR S3 BEFORE TEST
+* ### READ THE FAQ FOR S3 BEFORE TEST MOST KNOW!!!!
 
 ### Data Consistency Model for S3
 * Read and Write consistency for PUT of new objects 
