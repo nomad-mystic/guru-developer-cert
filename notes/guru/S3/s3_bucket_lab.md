@@ -11,3 +11,8 @@
         * Server side encryption with Custom Provided Keys (SSE-C)
 * Control access to buckets using either a bucket ACL (Access Control List) or using bucket Policies 
 * BY DEFAULT BUCKETS ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE
+
+
+#### NEED TO KNOW 
+* Name of the website bucket when creating a static website in S3;
+    * http://kmurphy-aws-bootcamp-website.s3-website-us-west-2.amazonaws.com
