@@ -13,7 +13,7 @@
 * Elastic Beanstalk 
 * CloudFormation 
 * AWS Shared Responsibility 
-* Route53 & DNS (Started)
+* Route53 & DNS (Done)
 * Virtual Private Cloud (VPC)
 * The Exam 
 * What's Next
