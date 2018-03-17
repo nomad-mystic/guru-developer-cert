@@ -5,7 +5,7 @@
 * IAM (Done)
 * EC2 (Done)
 * S3 (Started)
-* Databases Overview & Concepts 
+* Databases Overview & Concepts (Done)
 * DynamoDB
 * Simple Queue Service (SQS)
 * Simple Notification Services (SNS)

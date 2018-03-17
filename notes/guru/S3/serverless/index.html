@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lambda Functions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div id="js-box"></div>
+
+<script>
+
+	var httpRequest = new XMLHttpRequest();
+
+	httpRequest.onreadystatechange = function() {
+		if (this.readyState === 4 && this.status === 200) {
+			console.log(this.responseText);
+			window.document.getElementById('js-box').innerHTML = this.responseText;
+		}
+	};
+
+	httpRequest.open('GET', 'https://innz2ldswc.execute-api.us-west-2.amazonaws.com/prod', true);
+	httpRequest.send();
+</script>
+
+
+</body>
+</html>
