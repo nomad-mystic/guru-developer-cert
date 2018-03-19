@@ -23,6 +23,9 @@
 ### 5 X 10KB = 50 write units 
 ### Write throughput of 50 units 
 
+
+
+
 #### Error Codes
 400 HTTP Status Code - **ProvisionedThroughputExceededException**
 You Exceeded you max allowed provisioned throughput for the table or for one of more global secondary indexes.
