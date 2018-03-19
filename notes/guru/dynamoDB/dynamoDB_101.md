@@ -34,7 +34,7 @@ web, gaming, ad-tech, IoT, and many other applications.
 ##### Example of Cost 
 Our application performs 1 million reads and 1 million writes per day, while storing 28 gb of data.
 How many writes per:
-###### So 1,000,000 (writes) / 24 (hours) / 60 (minutes) / 60 (seconds) = 11.6 writes per second
+##### So 1,000,000 (writes) / 24 (hours) / 60 (minutes) / 60 (seconds) = 11.6 writes per second
 
 A DynamoDB Write Capacity Unit can handle 1 write per second, so you need 12 Write Capacity 
 Units. For Write throughput, you are charged on $0.0065 for every ten units.
