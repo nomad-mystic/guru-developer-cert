@@ -16,13 +16,16 @@
 ### (Size of Read rounded to the nearest 4KB chunk / 4KB) * the number of items = read throughput
 ### Divided by 2 if eventually consistent  
 
+![](../../../images/dynamoDB_thoughput_read.png)
+
+
 ## Write 
 ##### Question - You have an application that requires to write  items, with each item being 10KB in size per second.
 ##### What should you set the Write throughput to?
 ### Each write unit consist of 1KB of data. You need to write 5 items per second with item is using 10 KB of data.
 ### 5 X 10KB = 50 write units 
 ### Write throughput of 50 units 
-
+![](../../../images/dynamoDB_thoughput_write.png)
 
 
 

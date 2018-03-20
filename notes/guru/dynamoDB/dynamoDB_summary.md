@@ -1,0 +1,1 @@
+![](../../../images/dynamoDB_ending.png)
